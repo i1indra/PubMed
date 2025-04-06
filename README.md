@@ -1,4 +1,4 @@
-# PubMed-GEO Extractor
+# PubMed-GEO Extractor:
 A Python script that fetches experiment metadata from the GEO (Gene Expression Omnibus) database using PMIDs (PubMed IDs), leveraging the power of Biopython and NCBI Entrez utilities.
 
 Features
@@ -8,7 +8,7 @@ Links PubMed articles to corresponding GEO datasets
 
 Extracts key metadata fields:
 
-**Title**
+**Title:**
 
 Experiment Type
 
@@ -22,7 +22,7 @@ Handles XML parsing and basic error checking
 
 Outputs results to the console
 __________________________________________________________________________________________________________________________________________________________________________________________
-**Stop Before You Run This**
+**Stop Before You Run This:**
 
 Make sure you have Biopython installed.
 
@@ -38,11 +38,11 @@ Do not overload NCBI with rapid-fire requests — your IP may be temporarily blo
 Not all PMIDs are guaranteed to be linked to GEO datasets.
 
 
-**Requirements**
+**Requirements:**
 Python 3.6+
 Biopython
 
-**Install dependencies**
+**Install dependencies:**
 
 pip install biopython
 
@@ -60,8 +60,7 @@ Example: PMIDs_list.txt
 
 python geo_extractor.py
 
-**Sample Output
-**
+**Sample Output:**
 
 
 --- GEO Record ---
@@ -72,10 +71,10 @@ Summary: This study investigates ...
 Organism: Homo sapiens
 Overall Design: Samples collected from ...
 
-**License**
+**License:**
 This project is licensed under the MIT License.
 
-**Contributing**
+**Contributing:**
 Contributions, issues, and suggestions are welcome.
 
 Let me know if you want this saved to a `README.md` file or need a version tailored for Jupyter notebooks, GitHub Pages, or a PyPI package.
