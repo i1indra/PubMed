@@ -8,7 +8,7 @@ Links PubMed articles to corresponding GEO datasets
 
 Extracts key metadata fields:
 
-Title
+#Title
 
 Experiment Type
 
