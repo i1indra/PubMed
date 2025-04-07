@@ -53,7 +53,7 @@ Example: PMIDs_list.txt
 
 **Usage**
 
-```python geo_extractor.py```
+```python run.py```
 
 **Sample Output:**
 ```
