@@ -32,7 +32,6 @@ Do not overload NCBI with rapid-fire requests — your IP may be temporarily blo
 
 Not all PMIDs are guaranteed to be linked to GEO datasets.
 
-
 **Requirements:**
 Python 3.6+
 Biopython
